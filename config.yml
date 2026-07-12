@@ -1,0 +1,101 @@
+backend:
+  name: git-gateway
+  branch: main
+
+locale: pt
+publish_mode: simple
+media_folder: "uploads"
+public_folder: "/uploads"
+site_url: "https://boloconquista.com.br"
+display_url: "https://boloconquista.com.br"
+logo_url: "/assets/images/logomarca.jpg"
+
+collections:
+  - name: "conteudo"
+    label: "Conteúdo do site"
+    files:
+      - name: "configuracoes"
+        label: "Textos, preços e imagens"
+        file: "content.json"
+        format: "json"
+        fields:
+          - label: "Informações da loja"
+            name: "store"
+            widget: "object"
+            collapsed: false
+            fields:
+              - { label: "Nome", name: "name", widget: "string" }
+              - { label: "Slogan", name: "slogan", widget: "string" }
+              - { label: "Desde", name: "since", widget: "string" }
+              - { label: "Telefone exibido", name: "phoneDisplay", widget: "string" }
+              - { label: "WhatsApp somente números (com 55)", name: "phoneDigits", widget: "string" }
+              - { label: "Instagram sem @", name: "instagram", widget: "string" }
+              - { label: "Endereço", name: "address", widget: "string" }
+              - { label: "Horário", name: "hours", widget: "string" }
+              - { label: "CNPJ", name: "cnpj", widget: "string" }
+          - label: "Página inicial"
+            name: "home"
+            widget: "object"
+            collapsed: false
+            fields:
+              - { label: "Logomarca", name: "logoImage", widget: "image", required: false }
+              - { label: "Frase acima do título", name: "heroEyebrow", widget: "string" }
+              - { label: "Título principal", name: "heroTitle", widget: "string", hint: "Pode usar <em> para destacar uma parte em itálico." }
+              - { label: "Texto principal", name: "heroText", widget: "text" }
+              - { label: "Foto principal", name: "heroImage", widget: "image" }
+              - { label: "Título sobre a loja", name: "aboutTitle", widget: "string", hint: "Pode usar <em> para destacar uma parte em itálico." }
+              - { label: "Texto sobre a loja", name: "aboutText", widget: "text" }
+          - label: "Bolos confeitados"
+            name: "cakes"
+            widget: "object"
+            collapsed: true
+            fields:
+              - { label: "Preço P", name: "pPrice", widget: "string" }
+              - { label: "P no acetato", name: "pAcetate", widget: "string" }
+              - { label: "Preço M", name: "mPrice", widget: "string" }
+              - { label: "M no acetato", name: "mAcetate", widget: "string" }
+              - { label: "Preço G", name: "gPrice", widget: "string" }
+              - { label: "G no acetato", name: "gAcetate", widget: "string" }
+              - { label: "Massas", name: "masses", widget: "text" }
+              - { label: "Recheios", name: "fillings", widget: "text" }
+              - { label: "Acréscimos", name: "extra", widget: "text" }
+          - label: "Bolos especiais e pudim"
+            name: "specials"
+            widget: "object"
+            collapsed: true
+            fields:
+              - { label: "Preço Bolo Piscina", name: "poolPrice", widget: "string" }
+              - { label: "Foto Bolo Piscina", name: "poolImage", widget: "image" }
+              - { label: "Preço Bolo Vulcão", name: "volcanoPrice", widget: "string" }
+              - { label: "Foto Bolo Vulcão", name: "volcanoImage", widget: "image" }
+              - { label: "Preço Vulcão Especial", name: "specialVolcanoPrice", widget: "string" }
+              - { label: "Foto Vulcão Especial", name: "specialVolcanoImage", widget: "image" }
+              - { label: "Preço Pudim", name: "puddingPrice", widget: "string" }
+              - { label: "Foto Pudim", name: "puddingImage", widget: "image" }
+          - label: "Docinhos"
+            name: "sweets"
+            widget: "object"
+            collapsed: true
+            fields:
+              - { label: "Preço tradicionais", name: "regularPrice", widget: "string" }
+              - { label: "Preço especiais", name: "premiumPrice", widget: "string" }
+              - { label: "Nomes tradicionais", name: "regularNames", widget: "text" }
+              - { label: "Nomes especiais", name: "premiumNames", widget: "text" }
+          - label: "Salgados"
+            name: "savories"
+            widget: "object"
+            collapsed: true
+            fields:
+              - { label: "Preço tradicionais", name: "regularPrice", widget: "string" }
+              - { label: "Preço especiais", name: "specialPrice", widget: "string" }
+              - { label: "Nomes tradicionais", name: "regularNames", widget: "text" }
+              - { label: "Nomes especiais", name: "specialNames", widget: "text" }
+          - label: "Empadões"
+            name: "pies"
+            widget: "object"
+            collapsed: true
+            fields:
+              - { label: "Preço frango", name: "chickenPrice", widget: "string" }
+              - { label: "Preço carne seca", name: "driedMeatPrice", widget: "string" }
+              - { label: "Preço bacalhau/camarão", name: "seafoodPrice", widget: "string" }
+              - { label: "Foto do empadão", name: "image", widget: "image" }

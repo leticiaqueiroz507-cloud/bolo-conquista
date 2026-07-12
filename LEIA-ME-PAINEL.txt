@@ -1,0 +1,26 @@
+BOLO CONQUISTA — PAINEL EDITÁVEL — ETAPA 1
+
+O que esta etapa permite editar pelo painel:
+- Nome, slogan e ano de fundação
+- WhatsApp e Instagram
+- Endereço, horário e CNPJ
+- Foto e textos do banner principal
+- Texto da seção Sobre
+
+O site continua funcionando normalmente mesmo antes de ativar o painel.
+
+PARA O PAINEL FUNCIONAR ONLINE
+1. Crie uma conta gratuita no GitHub.
+2. Crie um repositório e envie todos os arquivos desta pasta.
+3. No Netlify, conecte o projeto a esse repositório em vez do upload manual.
+4. Abra admin/config.yml e substitua:
+   SEU_USUARIO/SEU_REPOSITORIO
+   pelo caminho real, por exemplo: leticiaqueiroz507/bolo-conquista
+5. Configure a autenticação do CMS com GitHub.
+6. Acesse https://boloconquista.com.br/admin/
+
+IMPORTANTE
+O painel é baseado em Git: ao clicar em Publicar, ele altera content/settings.json no repositório e o Netlify publica a atualização automaticamente.
+
+Próxima etapa planejada:
+- Editar produtos, preços e fotos de cada categoria pelo painel.

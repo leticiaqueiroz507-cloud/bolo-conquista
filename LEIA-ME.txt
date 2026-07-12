@@ -1,0 +1,23 @@
+BOLO CONQUISTA — VERSÃO 1.0
+
+COMO VISUALIZAR
+1. Extraia este arquivo ZIP.
+2. Abra index.html no navegador.
+
+COMO PUBLICAR GRATUITAMENTE
+A forma mais simples é enviar a pasta completa para Netlify Drop ou Cloudflare Pages.
+Não envie somente o index.html: todas as pastas e arquivos precisam permanecer juntos.
+
+ALTERAÇÕES SIMPLES
+- As fotos ficam em assets/images.
+- Para substituir uma foto sem alterar o código, mantenha exatamente o mesmo nome do arquivo.
+- Antes de trocar, faça uma cópia de segurança do projeto.
+
+DADOS PRINCIPAIS
+WhatsApp: (73) 99922-8980
+Instagram: @bolo_conquistaios
+Endereço: Avenida Osvaldo Cruz, 680 — Cidade Nova, Ilhéus-BA
+Horário: segunda a sábado, das 7h às 19h30
+CNPJ: 07.193.892/0001-33
+
+Esta versão inclui SEO básico, dados estruturados, carregamento otimizado, navegação responsiva, acessibilidade e mensagens específicas para WhatsApp.

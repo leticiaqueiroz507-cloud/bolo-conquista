@@ -1,0 +1,21 @@
+BOLO CONQUISTA — PAINEL EDITÁVEL — PACOTE PRONTO PARA GITHUB + NETLIFY
+
+Este pacote já está configurado para usar Netlify Identity + Git Gateway.
+Não é necessário editar config.yml nem criar OAuth no GitHub.
+
+PRÓXIMOS PASSOS
+1. Envie TODO o conteúdo desta pasta ao repositório GitHub bolo-conquista.
+2. No Netlify, conecte o projeto bolo-conquista ao repositório do GitHub.
+3. No Netlify, habilite Identity.
+4. Em Identity, deixe cadastro como Invite only.
+5. Convide seu próprio e-mail.
+6. Habilite Git Gateway.
+7. Abra https://boloconquista.com.br/admin/
+
+Nesta etapa, o painel edita:
+- Nome, slogan e ano
+- WhatsApp, Instagram, endereço, horário e CNPJ
+- Foto e textos do banner
+- Texto da seção Sobre
+
+Ao publicar no painel, o arquivo content/settings.json é alterado no GitHub e o Netlify republica o site automaticamente.

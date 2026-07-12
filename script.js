@@ -67,18 +67,3 @@ if (items.length) {
   box.addEventListener('click', e => { if (e.target === box || e.target.tagName === 'BUTTON') close(); });
   document.addEventListener('keydown', e => { if (e.key === 'Escape') close(); });
 }
-
-async function carregarConfiguracoes(){
-  try{
-    const r=await fetch('content/settings.json',{cache:'no-store'});
-    if(!r.ok) return;
-    const c=await r.json();
-    document.querySelectorAll('[data-setting]').forEach(el=>{const k=el.dataset.setting;if(c[k]!==undefined) el.textContent=c[k];});
-    document.querySelectorAll('[data-setting-src]').forEach(el=>{const k=el.dataset.settingSrc;if(c[k]) el.src=c[k];});
-    document.querySelectorAll('a[href*="wa.me/"]').forEach(a=>{
-      const msg=new URL(a.href).searchParams.get('text')||c.mensagem_orcamento||'';
-      a.href=`https://wa.me/${c.whatsapp}?text=${encodeURIComponent(msg)}`;
-    });
-  }catch(e){console.warn('Não foi possível carregar as configurações do site.',e);}
-}
-carregarConfiguracoes();

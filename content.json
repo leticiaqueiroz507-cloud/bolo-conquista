@@ -1,0 +1,61 @@
+{
+  "store": {
+    "name": "Bolo Conquista",
+    "slogan": "Conquistando o seu paladar.",
+    "since": "2013",
+    "phoneDisplay": "(73) 99922-8980",
+    "phoneDigits": "5573999228980",
+    "instagram": "bolo_conquistaios",
+    "address": "Avenida Osvaldo Cruz, 680 - Cidade Nova, Ilhéus - BA",
+    "hours": "Segunda a sábado, das 7h às 19h30",
+    "cnpj": "07.193.892/0001-33"
+  },
+  "home": {
+    "heroEyebrow": "Pioneiros em Ilhéus • Desde 2013",
+    "heroTitle": "Transformando momentos especiais <em>em lembranças inesquecíveis.</em>",
+    "heroText": "Chantininho, acabamento personalizado e um ótimo equilíbrio entre qualidade e preço para conquistar o seu paladar.",
+    "heroImage": "assets/images/photo_5084975257239621139_y.jpg",
+    "aboutTitle": "Conquistando o seu paladar <em>desde 2013.</em>",
+    "aboutText": "Fomos pioneiros na cidade e seguimos fazendo parte das comemorações de Ilhéus com bolos em chantininho, doces, salgados e empadões preparados com cuidado, sabor e preço justo.",
+    "logoImage": "assets/images/logomarca.jpg"
+  },
+  "cakes": {
+    "pPrice": "R$ 100",
+    "pAcetate": "No acetato: R$ 120",
+    "mPrice": "R$ 160",
+    "mAcetate": "No acetato: R$ 180",
+    "gPrice": "R$ 200",
+    "gAcetate": "No acetato: R$ 220",
+    "masses": "Ninho • Mesclado • Formigueiro • Chocolate",
+    "fillings": "Abacaxi • Coco • Brigadeiro • Brigadeiro branco • Amendoim • Pêssego • Morango • Ameixa",
+    "extra": "Pêssego, morango e ameixa: acréscimo de R$ 10 no P e R$ 20 no M ou G."
+  },
+  "specials": {
+    "poolPrice": "R$ 50",
+    "poolImage": "assets/images/photo_5084975257239621119_y.jpg",
+    "volcanoPrice": "R$ 45",
+    "volcanoImage": "assets/images/bolo_vulcao.jpg",
+    "specialVolcanoPrice": "R$ 60",
+    "specialVolcanoImage": "assets/images/photo_5084975257239621143_y.jpg",
+    "puddingPrice": "R$ 40",
+    "puddingImage": "assets/images/photo_5084975257239621121_y.jpg"
+  },
+  "sweets": {
+    "regularPrice": "R$ 1,20",
+    "premiumPrice": "R$ 1,50",
+    "regularNames": "Churros • Limão • Brigadeiro • Café • Ferrero Rocher • Amendoim • Ninho com Nutella • Beijinho • Coco Queimado",
+    "premiumNames": "Casadinho • Uva Encapada"
+  },
+  "savories": {
+    "regularPrice": "R$ 1,50",
+    "specialPrice": "R$ 1,70",
+    "regularNames": "Bolinha de Queijo • Coxinha • Quibe • Churros • Pastel de Frango • Pastel de Carne • Empada de Frango • Empada Doce • Risole de Presunto e Queijo",
+    "specialNames": "Bolinho de Carne Seca • Quiche • Risole de Camarão • Balãozinho de Bacalhau • Bolinho de Carne Seca com Banana"
+  },
+  "pies": {
+    "chickenPrice": "R$ 150",
+    "driedMeatPrice": "R$ 170",
+    "seafoodPrice": "R$ 180",
+    "image": "assets/images/empadao_destaque.jpg"
+  }
+}

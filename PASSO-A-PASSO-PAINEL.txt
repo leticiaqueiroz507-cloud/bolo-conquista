@@ -1,0 +1,19 @@
+BOLO CONQUISTA — PAINEL EDITÁVEL (DECAP CMS)
+
+Este pacote usa somente GitHub + Netlify + Decap CMS. Não é WordPress e não exige mensalidade.
+
+DEPOIS DO UPLOAD NO GITHUB:
+1. No Netlify, conecte o projeto ao repositório GitHub bolo-conquista.
+2. Em Project configuration > Identity, ative Netlify Identity.
+3. Em Identity > Registration preferences, escolha Invite only.
+4. Em Identity > Services, ative Git Gateway.
+5. Convide seu próprio e-mail em Identity > Invite users.
+6. Abra o e-mail de convite e confirme a conta.
+7. Entre em https://boloconquista.com.br/admin/
+8. Edite e clique em Publicar. O Netlify republicará automaticamente.
+
+IMPORTANTE:
+- O repositório deve usar a branch main.
+- O Netlify precisa estar conectado ao mesmo repositório.
+- As fotos novas são salvas em assets/uploads.
+- Guarde este ZIP como cópia de segurança.

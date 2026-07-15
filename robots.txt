@@ -1,2 +1,4 @@
 User-agent: *
 Allow: /
+
+Sitemap: https://boloconquista.com.br/sitemap.xml

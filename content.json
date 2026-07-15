@@ -14,10 +14,10 @@
     "heroEyebrow": "Pioneiros em Ilhéus • Desde 2013",
     "heroTitle": "Transformando momentos especiais <em>em lembranças inesquecíveis.</em>",
     "heroText": "Chantininho, acabamento personalizado e um ótimo equilíbrio entre qualidade e preço para conquistar o seu paladar.",
-    "heroImage": "assets/images/photo_5084975257239621139_y.jpg",
+    "heroImage": "photo_5084975257239621139_y.jpg",
     "aboutTitle": "Conquistando o seu paladar <em>desde 2013.</em>",
     "aboutText": "Fomos pioneiros na cidade e seguimos fazendo parte das comemorações de Ilhéus com bolos em chantininho, doces, salgados e empadões preparados com cuidado, sabor e preço justo.",
-    "logoImage": "assets/images/logomarca.jpg"
+    "logoImage": "logomarca.jpg"
   },
   "cakes": {
     "pPrice": "R$ 100",
@@ -32,13 +32,13 @@
   },
   "specials": {
     "poolPrice": "R$ 50",
-    "poolImage": "assets/images/photo_5084975257239621119_y.jpg",
+    "poolImage": "photo_5084975257239621119_y.jpg",
     "volcanoPrice": "R$ 45",
-    "volcanoImage": "assets/images/bolo_vulcao.jpg",
+    "volcanoImage": "bolo_vulcao.jpg",
     "specialVolcanoPrice": "R$ 60",
-    "specialVolcanoImage": "assets/images/photo_5084975257239621143_y.jpg",
+    "specialVolcanoImage": "photo_5084975257239621143_y.jpg",
     "puddingPrice": "R$ 40",
-    "puddingImage": "assets/images/photo_5084975257239621121_y.jpg"
+    "puddingImage": "photo_5084975257239621121_y.jpg"
   },
   "sweets": {
     "regularPrice": "R$ 1,20",
@@ -56,6 +56,6 @@
     "chickenPrice": "R$ 150",
     "driedMeatPrice": "R$ 170",
     "seafoodPrice": "R$ 180",
-    "image": "assets/images/empadao_destaque.jpg"
+    "image": "empadao_destaque.jpg"
   }
 }

@@ -4,8 +4,8 @@ backend:
 
 locale: pt
 publish_mode: simple
-media_folder: "uploads"
-public_folder: "/uploads"
+media_folder: "assets/uploads"
+public_folder: "/assets/uploads"
 site_url: "https://boloconquista.com.br"
 display_url: "https://boloconquista.com.br"
 logo_url: "/assets/images/logomarca.jpg"
